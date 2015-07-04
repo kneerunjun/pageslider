@@ -1,0 +1,19 @@
+﻿<ul class="pager">
+    <li ng-class="{true:'disabled', false:''}[nomoreleft==true]">
+        <a ng-click="moveleft()">
+            <span class="glyphicon glyphicon-chevron-left">
+
+            </span>
+        </a>
+    </li>
+    &nbsp;
+    <span class="badge">{{currentpage}}</span>&nbsp;
+    <li ng-class="{true:'disabled', false:''}[nomoreright==true]">
+        <a ng-click="moveright()">
+            <span class="glyphicon glyphicon-chevron-right">
+
+            </span>
+        </a>
+    </li>
+</ul>
+
